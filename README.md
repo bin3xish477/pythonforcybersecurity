@@ -17,7 +17,7 @@ Python is an interpreted, object-oriented, and high-level programming language. 
 # Hello, World!
 Hello world programs are essentially the first program a you would learn how to write when learning a programming language. So let's stick to the tradition and begin writing our "Hello, World!" program in Python.
 
-```
+```python
 print("Hello, World!")
 ```
 
