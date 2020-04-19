@@ -58,7 +58,7 @@ print("Hello, World!")
 
 ```
 
-## Strings, Integers, Booleans, and Floats
+## Data Types: strings, integers, booleans, and floats
 Strings, integers, booleans, and floats are all data types in Python which are all used to represent data. 
 **Strings**
   - Strings are a sequence of characters.
@@ -94,6 +94,7 @@ Strings, integers, booleans, and floats are all data types in Python which are a
   # Floats are mostly used for mathematical purposes.
   Floats: 0.1, 3.3, 5324.172, .77
   ```
+## Data Structures: list, dict, tuples, sets, strings
 
 ## Variables
 Variables are used in programming languages to store data and given names to better understand what data represents.
