@@ -5,8 +5,8 @@
 - Python data types and data structures and their manipulation
 - Input prompts
 - Function declaration and built-in functions.
-- Working with imported modules
-- work with 2 built-in modules: socket and requests
+- Work with imported modules
+- Work with 2 important built-in modules: socket and requests
   - The socket module for creating client-server sockets.
   - The requests module for constructing and sending HTTP requests.
 
