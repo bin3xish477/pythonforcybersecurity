@@ -1,4 +1,4 @@
-# Introduction to Python for cybersecurity.
+# Introduction to Python for Cybersecurity Professionals.
 
 ## What will you learn?
 - Basic functional programming structure
