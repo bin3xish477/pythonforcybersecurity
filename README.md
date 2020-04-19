@@ -1,6 +1,7 @@
 # Introduction to Python for Cybersecurity
 ## What will you learn?
 - Basic functional programming structure
+- Documentation
 - Python data types and data structures and their manipulation
 - Input prompts
 - Function declaration and built-in functions.
@@ -14,12 +15,17 @@ Python is an interpreted, object-oriented, and high-level programming language. 
 
 **Note**: Python 3.6+ is recommended for following all steps of this tutorial to avoid producing errors.
 
-# Hello, World!
+## Hello, World!
 Hello world programs are essentially the first program a you would learn how to write when learning a programming language. So let's stick to the tradition and begin writing our "Hello, World!" program in Python.
 
 ```python
 print("Hello, World!")
 ```
+Running the code above will print out "Hello, World!" to the console, and can be ran by prefixing the name of the file that you have saved this code into with the word python - `python yourFileName.py`
+
+## Important Elements of Python Programs
+1. Save Python files with the `.py` extension
+2. 
 
 
 
