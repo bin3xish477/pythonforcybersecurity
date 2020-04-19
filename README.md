@@ -62,11 +62,11 @@ Strings, integers, booleans, and floats are all data types in Python which are a
   Ex.
   # Any statement surrouned by double or single quotes are considered strings.
   Strings: "I love Python", 'I love Python' 
-  Both of the strings represented above are treated the same in Python.
+  # Both of the strings represented above are treated the same in Python.
   ```
   - Unlike many programming languages that support character data types, a character in Python is simply a string with the length of 1.
   ```python
-  # This is a character, but really it's just a string of length 1.
+  # This are characters, but really there just strings of length 1.
   Characters: "A" or 'a'
   ```
 **Integers**
