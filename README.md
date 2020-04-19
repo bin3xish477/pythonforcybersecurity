@@ -5,7 +5,7 @@
 - Input prompts
 - Function declaration and built-in functions.
 - Working with imported modules
-- Learn two important modules: socket and requests
+- work with 2 built-in modules: socket and requests
   - The socket module for creating client-server sockets.
   - The requests module for constructing and sending HTTP requests.
 
