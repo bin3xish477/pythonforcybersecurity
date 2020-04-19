@@ -54,61 +54,61 @@ print("Hello, World!")
 
 ```
 
+## Strings, Integers, Booleans, and Floats
+Strings, integers, booleans, and floats are all data types in Python which are all used to represent data. 
+**Strings**
+  - Strings are a sequence of characters.
+  ```python
+  Ex.
+  # Any statement surrouned by double or single quotes are considered strings.
+  Strings: "I love Python", 'I love Python' 
+  Both of the strings represented above are treated the same in Python.
+  ```
+  - Unlike many programming languages that support character data types, a character in Python is simply a string with the length of 1.
+  ```python
+  # This is a character, but really it's just a string of length 1.
+  Characters: "A" or 'a'
+  ```
+**Integers**
+  - Integers are any whole numbers, both negative and positive.
+  ```python
+  Ex.
+  # The following values are all valid integers.
+  Integers: 1, 5, 2020, -3452, 0
+  ```
+**Booleans**
+  - Booleans are logical data types that store represent only two values.
+  ```python
+  Ex.
+  # Booleans are very useful for your programs control flow.
+  Booleans: True, False
+  # Note: Booleans must be capitalized in Python.
+  ```
+**Floats**
+  - Floats represent real numbers and contain decimals to distinguish fractional and integer parts.
+  ```python
+  # Floats are mostly used for mathematical purposes.
+  Floats: 0.1, 3.3, 5324.172, .77
+  ```
 
+## Variables
+Variables are used in programming languages to store data and given names to better understand what data represents.
+Variable declarations in Python using data types discussed earlier:
+```python
+# This is a variable storing a string.
+name = "John Wick"
 
+# This is a variable storing an integer.
+age = 20
 
+# This is a variable storing a float.
+pi = 3.14
 
+# This is a variable storing a boolean value.
+male = True
+```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/binexisHATT/pythonforredteamers.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
 
 **Bold** and _Italic_ and `Code` text
 
 [Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/binexisHATT/pythonforredteamers.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
