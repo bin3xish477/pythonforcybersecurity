@@ -1,10 +1,10 @@
 # Introduction to Python for Cybersecurity
 ## What will you learn?
 - Basic functional programming structure
-- Documentation
 - Python data types and data structures and their manipulation
 - Input prompts
 - Function declaration and built-in functions.
+- Code Documentation and function Documentation
 - Work with imported modules
 - Work with 2 important built-in modules: socket and requests
   - The socket module for creating client-server sockets.
@@ -21,11 +21,39 @@ Hello world programs are essentially the first program a you would learn how to 
 ```python
 print("Hello, World!")
 ```
-Running the code above will print out "Hello, World!" to the console, and can be ran by prefixing the name of the file that you have saved this code into with the word python - `python yourFileName.py`
+Running the code above will print out "Hello, World!" to the console, and can be ran by prefixing the name of the file that you have saved this code into with the word python - `python yourFileName.py`. All Python files you create need to be saved with the `.py` extension. 
 
-## Important Elements of Python Programs
-1. Save Python files with the `.py` extension
-2. 
+## Comments in Python
+Comments are useful in Python and in other programming languages for understanding what a program is doing and can help guide others who are trying to understand your programs logic. Comments can also save you time when refering back to programs you have written. Here are the three types of comments in Python:
+```python
+# This is a single line comment.
+
+'''
+This
+is
+a
+multi-line
+comment.
+'''
+
+"""
+This
+multi-line
+comment
+works
+exactly as
+the one
+above.
+"""
+```
+Documenting the "Hello, World!" program might look something like this:
+```python
+
+# This line will print "Hello, World!" to the console
+print("Hello, World!")
+
+```
+
 
 
 
