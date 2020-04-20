@@ -288,19 +288,19 @@ by "while loops" and "for loops" interchangeably.
 Ex. While Loop:
 number = 1
 
-# Evaluating a condition.
+# Performing some operation repeatedly until a condition is satisfied.
 while number < 10:
   print(number)
 
 Ex. For Loop:
-# For loops are great for performing steps a determined number of times:
+# For loops are great for repeatedly performing some operation a determined number of times.
 for i in range(10)
   print(i)
 ```
 
-**while loops**
+### while loops
 
-**for loops**
+### for loops
 
 # About the Author
 Alexis Rodriguez is a cybersecurity professional with an adoration for the art of programming. He has studied computer science at Hunter College and has graduated Fullstack Cyber Bootcamp where he has gained his cybersecurity foundation and programming abilities. His favorite quote is: "It is the knowledge of knowing that I am going to die that creates the focus that I bring to being alive." by *Neil Degrasse Tyson*.
