@@ -75,6 +75,7 @@ Strings, integers, booleans, and floats are all data types in Python which are a
   # This are characters, but really there just strings of length 1.
   Characters: "A" or 'a'
   ```
+  
 **Integers**
   - Integers are any whole numbers, both negative and positive.
   ```python
@@ -82,6 +83,7 @@ Strings, integers, booleans, and floats are all data types in Python which are a
   # The following values are all valid integers.
   Integers: 1, 5, 2020, -3452, 0
   ```
+  
 **Booleans**
   - Booleans are logical data types that store represent only two values.
   ```python
@@ -90,6 +92,7 @@ Strings, integers, booleans, and floats are all data types in Python which are a
   Booleans: True, False
   # Note: Booleans must be capitalized in Python.
   ```
+  
 **Floats**
   - Floats represent real numbers and contain decimals to distinguish fractional and integer parts.
   ```python
@@ -104,21 +107,31 @@ Data structures are a collection of data types. You use data structures to store
 - Lists can store any data type including other data structures. 
 - Lists support indexing which means that elements are ordered and can be addressed using a unique index identifier.
 - Lists are also mutable meaning that the elements within a list can be changed if they are mutable types.
+```python
+```
 **Dicts**
 - Dictionaries are a unique that data structure that use a key-value pair in order to distinguish every items.
 - Dictionaries, like lists, are mutable which means you can change a particular item within any given dictionary, if the item is mutable.
 - In Python 3.6+, dictionaries preserve their order which means that items we insert into a dictionary can be expected to be at the location we designated them to be in.
 - Dictionary items can be accessed using a specific syntax which we will discuss later.
+```python
+```
+
 **Tuples**
 - Tuples are immutable data structures which means there values cannot be altered and we cannot add new elements to them.
 - Tuples are ordered thus elements can be accessed using indexes.
+```python
+```
+
 **Sets**
 - Sets store immutable data types: tuples, strings, ints, floats, bool
 - Sets do not store duplicate values.
 - Sets do not have ordering which means we can't use index notation to extract individual elements from a set.
+```python
+A set: {"John Wick", 20}
+```
 
 ### Data Structure Declaration Operators
-Declaring
 |Data structure| Declaration operators|
 |------|-------|
 |**List**|`[] or list()`|
@@ -127,13 +140,15 @@ Declaring
 |**Set**|`{} or set()`|
 
 ## Variables
-Variables are used in programming languages to store data and are given names to better understand what data represents.
+Variables are used in programming languages to store data and are given names to better understand what the stored data represents.
 Here are some variable declarations in Python using data types and data structures discussed earlier:
 ```python
+"""
 ***********************************************
 The "=" sign is called the assignment operator
 and is used to declare variables.
 ***********************************************
+"""
 
 # Both ways of declaring a variable of type string.
 name = "John Wick"
@@ -148,6 +163,31 @@ pi = 3.14
 
 # This is a variable storing a boolean value.
 male = True
+
+# This is a variable storing a list.
+my_list = 
+```
+
+### More on Variables
+1. Variables are case-sensitive
+```python
+name = "John" 
+# AND
+naMe = "John"
+# Are to different variables.
+```
+2. Variable naming conventions:
+```python
+# VALID
+my_name = "Alexis"
+name0 = "Alexis"
+n00b = "Alexis"
+
+# INVALID
+ # Variables should not begin with numbers. Though numbers can be included after the first element.
+0name = "Alexis" # BAD
+Can't have number variables.
+1 = "Student" # BAD
 ```
 
 --------------------------------------------------------------------------------------------------------------------------
