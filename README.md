@@ -110,6 +110,7 @@ Data structures are a collection of data types. You use data structures to store
 ```python
 Lists: ["A string", 365.00, 7, True]
 ```
+
 **Dicts**
 - Dictionaries are a unique that data structure that use a key-value pair in order to distinguish every items.
   - dictionary keys must be an immutable type.
@@ -197,6 +198,7 @@ name = "John"
 naMe = "John"
 # Are to different variables.
 ```
+
 2. Variable naming conventions:
 ```python
 # VALID
@@ -210,6 +212,7 @@ n00b = "Alexis"
 # Can't create number variables.
 1 = "Student" # BAD
 ```
+
 3. Variable names should be descriptive for readability
 ```python
 this_is_my_name = "Alexis"
@@ -218,6 +221,5 @@ days_in_a_year = 365
 
 --------------------------------------------------------------------------------------------------------------------------
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+## About the Author
+Alexis Rodriguez is a cybersecurity professional with an adoration for the art of programming. He has studied computer science at Hunter College and has graduated Fullstack Cyber Bootcamp where he has gained his cybersecurity foundation and programming abilities. His **favorite quote** is: "It is the knowledge of knowing that I am going to die that creates the focus that I bring to being alive." by __Neil Degrasse Tyson__
