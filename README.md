@@ -136,7 +136,7 @@ Tuple: ("brown", 1999, 6.2)
 Set: {"John Wick", 20, True}
 ```
 
-## Data Structure Declaration Operators
+### Data Structure Declaration Operators
 |Data structure| Declaration operators|
 |-------|-------|
 |**List**|`[] or list()`|
