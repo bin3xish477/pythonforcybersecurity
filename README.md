@@ -142,10 +142,10 @@ Set: {"John Wick", 20, True}
 
 |**Data structure**|**Declaration**|
 |-------|-------|
-|**List**|`[] or list()`|
-|**Dict**|`{} or dict({})`|
-|**Tuple**|`() or tuple()`|
-|**Set**|`{} or set()`|
+|List|`[] or list()`|
+|Dict|`{} or dict({})`|
+|Tuple|`() or tuple()`|
+|Set|`{} or set()`|
 
 
 # Variables
