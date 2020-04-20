@@ -1,5 +1,5 @@
 # Introduction
-## What will you learn?
+### What will you learn?
 - Basic functional programming structure
 - Python data types and data structures and their manipulation
 - Arithmetic Operators
@@ -15,7 +15,7 @@
   - The requests module for constructing and sending HTTP requests.
   
 ---
-## What is Python?
+### What is Python?
 Python is an interpreted, object-oriented, dynamically typed, and high-level programming language. Python was created by Guido van Rossum in 1991 and was developed for writing readable code and creating programs with fewer lines of code. Python is one of the top three languages in the world and has gained most of its popularity in the fields of artificial intelligence, backend web development, and data science. Python is most commonly used in cybersecurity for scripting practices which means it is used for automating tasks that would normally require step-by-step operations performed by a human. One important feature of Python to understand is that it is an interpreted language as opposed to compiled. Interpreted languages differ from compiled languages in the way that they are converted into a language that a computer can understand. Interpreted languages rely on an "interpreter" to interpret every line of code into machine processable syntax. Compiled languages perform a more rigorous phase-oriented process which include the following components: a preprocessor, a compiler, a assembler, and a linker. To read more about compiled languages, check out [this](https://www.youtube.com/watch?v=GExnnTaBELk&list=LLzN3gxCWCmr3Bbj_EBLE1SQ&index=22&t=0s) youtube video. Now that we have learned about what Python is and some of its characteristics, let's get into coding.
 
 **Note**: Python 3.6+ is recommended for following all steps of this tutorial to avoid producing errors.
