@@ -315,12 +315,12 @@ for i in range(10)
   print(i)
 ```
 
-**while loops**
+**While loops**
 ```python
 
 ```
 
-**for loops**
+**For loops**
 ```python
 
 ```
