@@ -108,6 +108,7 @@ Data structures are a collection of data types. You use data structures to store
 - Lists support indexing which means that elements are ordered and can be addressed using a unique index identifier.
 - Lists are also mutable meaning that the elements within a list can be changed if they are mutable types.
 ```python
+Lists: ["A string", 365.00, 7, True]
 ```
 **Dicts**
 - Dictionaries are a unique that data structure that use a key-value pair in order to distinguish every items.
@@ -116,12 +117,14 @@ Data structures are a collection of data types. You use data structures to store
 - In Python 3.6+, dictionaries preserve their order which means that items we insert into a dictionary can be expected to be at the location we designated them to be in.
 - Dictionary items can be accessed using a specific syntax which we will discuss later.
 ```python
+Dict: {"eye_color": "brown", 1: "A number", "male": True}
 ```
 
 **Tuples**
 - Tuples are immutable data structures which means there values cannot be altered and we cannot add new elements to them.
 - Tuples are ordered thus elements can be accessed using indexes.
 ```python
+Tuple: ("brown", 1999, 6.2)
 ```
 
 **Sets**
@@ -129,14 +132,14 @@ Data structures are a collection of data types. You use data structures to store
 - Sets do not store duplicate values.
 - Sets do not have ordering which means we can't use index notation to extract individual elements from a set.
 ```python
-A set: {"John Wick", 20}
+A set: {"John Wick", 20, True}
 ```
 
 ### Data Structure Declaration Operators
 |Data structure| Declaration operators|
 |------|-------|
 |**List**|`[] or list()`|
-|**Dict**|`{} or dict()`|
+|**Dict**|`{} or dict({})`|
 |**Tuple**|`() or tuple()`|
 |**Set**|`{} or set()`|
 
@@ -173,7 +176,7 @@ my_list = list("John Wick", 20, 3.14, True)
 # This is a variable storing a dict
 my_dict = {"name": "John", "age": "20", "male": True}
 # SAME AS
-my_dict = dict("name": "John", "age": "20", "male": True)
+my_dict = dict({"name": "John", "age": "20", "male": True})
 
 # This is a variable storing a tuple.
 my_tuple = ("John Wick", 20, True)
