@@ -132,7 +132,7 @@ Tuple: ("brown", 1999, 6.2)
 - Sets do not store duplicate values.
 - Sets do not have ordering which means we can't use index notation to extract individual elements from a set.
 ```python
-A set: {"John Wick", 20, True}
+Set: {"John Wick", 20, True}
 ```
 
 ### Data Structure Declaration Operators
