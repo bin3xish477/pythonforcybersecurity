@@ -194,48 +194,49 @@ my_set = set("Alice", "alice") # Note that "Alice" is different than "alice".
 
 ## More on Variables
 1. Variables are case-sensitive
-```python
-name = "John" 
-# AND
-naMe = "John"
-# Are to different variables.
-```
+  ```python
+  name = "John" 
+  # AND
+  naMe = "John"
+  # Are to different variables.
+  ```
 
 2. Variable naming conventions
-```python
-# VALID
-my_name = "Alexis"
-name0 = "Alexis"
-n00b = "Alexis"
+  ```python
+  # VALID
+  my_name = "Alexis"
+  name0 = "Alexis"
+  n00b = "Alexis"
 
-# INVALID
- # Variables should not begin with numbers. Though numbers can be included after the first element.
-0name = "Alexis" # BAD
-# Can't create number variables.
-1 = "Student" # BAD
-```
+  # INVALID
+   # Variables should not begin with numbers. Though numbers can be included after the first element.
+  0name = "Alexis" # BAD
+  # Can't create number variables.
+  1 = "Student" # BAD
+  ```
 
 3. Variable names should be descriptive for readability
-```python
-this_is_my_name = "Alexis"
-days_in_a_year = 365
-```
+  ```python
+  this_is_my_name = "Alexis"
+  days_in_a_year = 365
+  ```
+  
 4. Variable should not match built-in keyword names
-```python
-"""
-List of built-in keywords:
-and       del       from      not       while    
-as        elif      global    or        with     
-assert    else      if        pass      yield    
-break     except    import    print              
-class     exec      in        raise              
-continue  finally   is        return             
-def       for       lambda    try
-"""
+  ```python
+  """
+  List of built-in keywords:
+  and       del       from      not       while    
+  as        elif      global    or        with     
+  assert    else      if        pass      yield    
+  break     except    import    print              
+  class     exec      in        raise              
+  continue  finally   is        return             
+  def       for       lambda    try
+  """
 
-# Ex.
-class = "some class" # This is invalid because python already uses this variable for something else.
-```
+  # Ex.
+  class = "some class" # This is invalid because python already uses this variable for something else.
+  ```
 
 # User Input
 User input is important if your program relies on external data that a user may need to provide. To retrieve data from a user while program run-time, we use the keyword *input*.
