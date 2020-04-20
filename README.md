@@ -243,14 +243,14 @@ my_set = set("Alice", "alice") # Note that "Alice" is different than "alice".
   ```
   
 - After declaring a variable with some data, the variable name can be used to referrence it's data
-```python
-pi = 3.14
+  ```python
+  pi = 3.14
 
-print(pi) # We use the variable "pi" to retrieve the value 3.14 and print it out.
+  print(pi) # We use the variable "pi" to retrieve the value 3.14 and print it out.
 
-# Output:
-# 3.14
-```
+  # Output:
+  # 3.14
+  ```
 # User Input
 User input is important if your program relies on external data that a user may need to provide. To retrieve data from a user while program run-time, we use the keyword *input*.
 ```python
