@@ -251,6 +251,7 @@ my_set = set("Alice", "alice") # Note that "Alice" is different than "alice".
   # Output:
   # 3.14
   ```
+  
 # User Input
 User input is important if your program relies on external data that a user may need to provide. To retrieve data from a user while program run-time, we use the keyword *input*.
 ```python
