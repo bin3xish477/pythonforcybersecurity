@@ -219,6 +219,22 @@ n00b = "Alexis"
 this_is_my_name = "Alexis"
 days_in_a_year = 365
 ```
+4. Variable should not match built-in keyword names
+```python
+"""
+List of built-in keywords:
+and       del       from      not       while    
+as        elif      global    or        with     
+assert    else      if        pass      yield    
+break     except    import    print              
+class     exec      in        raise              
+continue  finally   is        return             
+def       for       lambda    try
+"""
+
+# Ex.
+class = "some class" # This is invalid because python already uses this variable for something else.
+```
 
 # User Input
 User input is important if your program relies on external data that a user may need to provide. To retrieve data from a user while program run-time, we use the keyword *input*.
@@ -239,16 +255,22 @@ What is control flow?
 
 ```python
 """
-************************************************
-The "==" sign is used to check if two data types
+**************************************************
+- The "==" sign is used to check if two data types
 or data structures are equivalent.
-************************************************
+- The "if", "elif", and "else" are all keywords
+used in controlling the flow of a Python program.
+**************************************************
 """
 
 name = "John"
 
 if name == "John":
   print("Your name is John")
+elif name == "Alice":
+  print("Your name is Alice")
+else:
+  print("I do not know your name")
 ```
 
 ---
