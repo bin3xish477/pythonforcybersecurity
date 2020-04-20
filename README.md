@@ -1,4 +1,4 @@
-# Introduction to Python for Cybersecurity
+# Introduction
 ## What will you learn?
 - Basic functional programming structure
 - Python data types and data structures and their manipulation
@@ -18,8 +18,7 @@ Python is an interpreted, object-oriented, dynamically typed, and high-level pro
 
 **Note**: Python 3.6+ is recommended for following all steps of this tutorial to avoid producing errors.
 
----
-## Hello, World!
+# Hello, World!
 Hello world programs are essentially the first program a you would learn how to write when learning a programming language. So let's stick to the tradition and begin writing our "Hello, World!" program in Python.
 
 ```python
@@ -27,8 +26,8 @@ print("Hello, World!")
 ```
 Running the code above will print out "Hello, World!" to the console, and can be ran by prefixing the name of the file that you have saved this code into with the word python - `python yourFileName.py`. All Python files you create need to be saved with the `.py` extension. 
 
----
-## Comments in Python
+
+# Comments in Python
 Comments are useful in Python and in other programming languages for understanding what a program is doing and can help guide others who are trying to understand your programs logic. Comments can also save you time when refering back to programs you have written. Here are the three types of comments in Python:
 ```python
 # This is a single line comment.
@@ -58,8 +57,8 @@ Documenting the "Hello, World!" program might look something like this:
 print("Hello, World!")
 
 ```
----
-## Data Types: string, integer, boolean, and float
+
+# Data Types: string, integer, boolean, and float
 Strings, integers, booleans, and floats are all data types in Python which are all used to represent data. 
 
 **Strings**
@@ -101,7 +100,7 @@ Strings, integers, booleans, and floats are all data types in Python which are a
   Floats: 0.1, 3.3, 5324.172, .77
   ```
   
-## Data Structures: list, dict, tuple, and set
+# Data Structures: list, dict, tuple, and set
 Data structures are a collection of data types. You use data structures to store data that are revelant to each othere, like a list of dates or IP addresses. Python is a dynamically typed language and therefore elements within any data structure can contain different data types. This means, for example, that creating a list with floats, strings, and integers is allowed in Python data structures. In statically typed languages, data structures can only store data that a declared data structure was determined to store. For example, in C++, arrays (C++'s version of lists) can only contain elements of the same data type: int, float, string, boolean.
 
 **Lists**
@@ -137,7 +136,7 @@ Tuple: ("brown", 1999, 6.2)
 Set: {"John Wick", 20, True}
 ```
 
-### Data Structure Declaration Operators
+## Data Structure Declaration Operators
 |Data structure| Declaration operators|
 |-------|-------|
 |**List**|`[] or list()`|
@@ -145,8 +144,8 @@ Set: {"John Wick", 20, True}
 |**Tuple**|`() or tuple()`|
 |**Set**|`{} or set()`|
 
----
-## Variables
+
+# Variables
 Variables are used in programming languages to store data and are given names to better understand what the stored data represents.
 Here are some variable declarations in Python using data types and data structures discussed earlier:
 ```python
@@ -192,7 +191,7 @@ my_set = {"Alice", "alice"}
 my_set = set("Alice", "alice") # Note that "Alice" is different than "alice".
 ```
 
-### More on Variables
+## More on Variables
 1. Variables are case-sensitive
 ```python
 name = "John" 
@@ -221,7 +220,7 @@ this_is_my_name = "Alexis"
 days_in_a_year = 365
 ```
 
-## User Input
+# User Input
 User input is important if your program relies on external data that a user may need to provide. To retrieve data from a user while program run-time, we use the keyword *input*.
 ```python
 # This will stop the execution of the program and wait for input.
@@ -235,7 +234,7 @@ name = input()
 name = input("Please enter your name: ")
 ```
 
-## Control Flow
+# Control Flow
 What is control flow?
 
 ```python
@@ -253,5 +252,5 @@ if name == "John":
 ```
 
 ---
-## About the Author
+# About the Author
 Alexis Rodriguez is a cybersecurity professional with an adoration for the art of programming. He has studied computer science at Hunter College and has graduated Fullstack Cyber Bootcamp where he has gained his cybersecurity foundation and programming abilities. His favorite quote is: "It is the knowledge of knowing that I am going to die that creates the focus that I bring to being alive." by *Neil Degrasse Tyson*.
