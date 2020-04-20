@@ -201,7 +201,7 @@ naMe = "John"
 # Are to different variables.
 ```
 
-2. Variable naming conventions:
+2. Variable naming conventions
 ```python
 # VALID
 my_name = "Alexis"
