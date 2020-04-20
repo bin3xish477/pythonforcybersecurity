@@ -140,7 +140,7 @@ Set: {"John Wick", 20, True}
 
 ### Data Structure Declaration Operators
 
-|Data structure| Declaration operators|
+|**Data structure**|**Declaration**|
 |-------|-------|
 |**List**|`[] or list()`|
 |**Dict**|`{} or dict({})`|
