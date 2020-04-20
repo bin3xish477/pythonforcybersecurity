@@ -139,6 +139,7 @@ Set: {"John Wick", 20, True}
 ```
 
 ### Data Structure Declaration Operators
+
 |Data structure| Declaration operators|
 |-------|-------|
 |**List**|`[] or list()`|
