@@ -4,6 +4,7 @@
 - Python data types and data structures and their manipulation
 - Control Flow
 - Input prompts
+- Loops
 - Function declaration and built-in functions.
 - Code Documentation and function Documentation
 - Work with imported modules
@@ -273,6 +274,33 @@ else:
   print("I do not know your name")
 ```
 
----
+# Loops
+```python
+"""
+*******************************************************
+In python, the words "while", "for", "in", and "range"
+can be a part of a loop operation. Note: "for",
+"in" are used in conjunction and "range" is used 
+by "while loops" and "for loops" interchangeably.
+*******************************************************
+"""
+
+Ex. While Loop:
+number = 1
+
+# Evaluating a condition.
+while number < 10:
+  print(number)
+
+Ex. For Loop:
+# For loops are great for performing steps a determined number of times:
+for i in range(10)
+  print(i)
+```
+
+**while loops**
+
+**for loops**
+
 # About the Author
 Alexis Rodriguez is a cybersecurity professional with an adoration for the art of programming. He has studied computer science at Hunter College and has graduated Fullstack Cyber Bootcamp where he has gained his cybersecurity foundation and programming abilities. His favorite quote is: "It is the knowledge of knowing that I am going to die that creates the focus that I bring to being alive." by *Neil Degrasse Tyson*.
