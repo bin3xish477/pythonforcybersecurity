@@ -223,7 +223,7 @@ my_set = set("Alice", "alice") # Note that "Alice" is different than "alice".
   days_in_a_year = 365
   ```
   
-- Variable should not match built-in keyword names
+- Variables should not match built-in keywords
   ```python
   """
   List of built-in keywords:
