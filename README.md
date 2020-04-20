@@ -315,9 +315,15 @@ for i in range(10)
   print(i)
 ```
 
-### while loops
+**while loops**
+```python
 
-### for loops
+```
+
+**for loops**
+```python
+
+```
 
 # About the Author
 Alexis Rodriguez is a cybersecurity professional with an adoration for the art of programming. He has studied computer science at Hunter College and has graduated Fullstack Cyber Bootcamp where he has gained his cybersecurity foundation and programming abilities. His favorite quote is: "It is the knowledge of knowing that I am going to die that creates the focus that I bring to being alive." by *Neil Degrasse Tyson*.
