@@ -111,6 +111,7 @@ Data structures are a collection of data types. You use data structures to store
 ```
 **Dicts**
 - Dictionaries are a unique that data structure that use a key-value pair in order to distinguish every items.
+  - dictionary keys must be an immutable type.
 - Dictionaries, like lists, are mutable which means you can change a particular item within any given dictionary, if the item is mutable.
 - In Python 3.6+, dictionaries preserve their order which means that items we insert into a dictionary can be expected to be at the location we designated them to be in.
 - Dictionary items can be accessed using a specific syntax which we will discuss later.
@@ -165,7 +166,24 @@ pi = 3.14
 male = True
 
 # This is a variable storing a list.
-my_list = 
+my_list = ["John Wick", 20, 3.14, True]
+# SAME AS
+my_list = list("John Wick", 20, 3.14, True)
+
+# This is a variable storing a dict
+my_dict = {"name": "John", "age": "20", "male": True}
+# SAME AS
+my_dict = dict("name": "John", "age": "20", "male": True)
+
+# This is a variable storing a tuple.
+my_tuple = ("John Wick", 20, True)
+# SAME AS
+my_tuple = tuple("John Wick", 20, True)
+
+# This is a variable storing a set.
+my_set = {"Alice", "alice"}
+# SAME AS
+my_set = set("Alice", "alice") # Note that "Alice" is different than "alice".
 ```
 
 ### More on Variables
@@ -186,8 +204,13 @@ n00b = "Alexis"
 # INVALID
  # Variables should not begin with numbers. Though numbers can be included after the first element.
 0name = "Alexis" # BAD
-Can't have number variables.
+# Can't create number variables.
 1 = "Student" # BAD
+```
+3. Variable names should be descriptive for readability
+```python
+this_is_my_name = "Alexis"
+days_in_a_year = 365
 ```
 
 --------------------------------------------------------------------------------------------------------------------------
