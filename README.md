@@ -203,16 +203,18 @@ my_set = set("Alice", "alice") # Note that "Alice" is different than "alice".
 
 2. Variable naming conventions
   ```python
-  # VALID
+  """ VALID """
   my_name = "Alexis"
   name0 = "Alexis"
   n00b = "Alexis"
+  _my_name = "Alexis"
 
-  # INVALID
-   # Variables should not begin with numbers. Though numbers can be included after the first element.
+  """ INVALID """
+   # Variables should not begin with numbers or special characters, besides underscore.
   0name = "Alexis" # BAD
   # Can't create number variables.
   1 = "Student" # BAD
+  *name = "Mike" # BAD
   ```
 
 3. Variable names should be descriptive for readability
