@@ -2,6 +2,7 @@
 ## What will you learn?
 - Basic functional programming structure
 - Python data types and data structures and their manipulation
+- Arithmetic Operators
 - Control Flow
 - Input prompts
 - Loops
@@ -25,7 +26,7 @@ Hello world programs are essentially the first program a you would learn how to 
 ```python
 print("Hello, World!")
 ```
-Running the code above will print out "Hello, World!" to the console, and can be ran by prefixing the name of the file that you have saved this code into with the word python - `python yourFileName.py`. All Python files you create need to be saved with the `.py` extension. 
+Running the code above will print out "Hello, World!" to the console, and can be ran by prefixing the name of the file that you have saved this code into with the word python - `python yourFileName.py`. All Python files you create need to be saved with the `.py` extension. The `print()` function used is a built-in Python function that prints data out to a console.
 
 
 # Comments in Python
@@ -239,7 +240,16 @@ my_set = set("Alice", "alice") # Note that "Alice" is different than "alice".
   # Ex.
   class = "some class" # This is invalid because python already uses this variable for something else.
   ```
+  
+- After declaring a variable with some data, the variable name can be used to referrence it's data
+```python
+pi = 3.14
 
+print(pi) # We use the variable "pi" to retrieve the value 3.14 and print it out.
+
+# Output:
+# 3.14
+```
 # User Input
 User input is important if your program relies on external data that a user may need to provide. To retrieve data from a user while program run-time, we use the keyword *input*.
 ```python
