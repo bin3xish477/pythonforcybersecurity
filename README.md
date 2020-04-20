@@ -268,8 +268,10 @@ name = "John"
 
 if name == "John":
   print("Your name is John")
+  
 elif name == "Alice":
   print("Your name is Alice")
+  
 else:
   print("I do not know your name")
 ```
@@ -285,14 +287,14 @@ by "while loops" and "for loops" interchangeably.
 *******************************************************
 """
 
-Ex. While Loop:
+# Ex. While Loop:
 number = 1
 
 # Performing some operation repeatedly until a condition is satisfied.
 while number < 10:
   print(number)
 
-Ex. For Loop:
+# Ex. For Loop:
 # For loops are great for repeatedly performing some operation a determined number of times.
 for i in range(10)
   print(i)
