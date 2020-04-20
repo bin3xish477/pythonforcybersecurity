@@ -326,4 +326,4 @@ for i in range(10)
 ```
 
 # About the Author
-Alexis Rodriguez is a cybersecurity professional with an adoration for the art of programming. He studied computer science at Hunter College where he learned how to program in C++ and Python, and graduated Fullstack Cyber Bootcamp where he gained his cybersecurity foundation. His favorite quote is: "It is the knowledge of knowing that I am going to die that creates the focus that I bring to being alive." by *Neil Degrasse Tyson*.
+Alexis Rodriguez is a cybersecurity professional with an adoration for the art of programming. He studied computer science at Hunter College where he learned how to program in C++ and Python, and graduated Fullstack Cyber Bootcamp where he gained his cybersecurity foundation. His favorite quote is: "It is the knowledge of knowing that I am going to die that creates the focus that I bring to being alive." - *Neil Degrasse Tyson*.
