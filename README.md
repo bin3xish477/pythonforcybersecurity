@@ -193,7 +193,7 @@ my_set = set("Alice", "alice") # Note that "Alice" is different than "alice".
 ```
 
 ## More on Variables
-1. Variables are case-sensitive
+- Variables are case-sensitive
   ```python
   name = "John" 
   # AND
@@ -201,7 +201,7 @@ my_set = set("Alice", "alice") # Note that "Alice" is different than "alice".
   # Are to different variables.
   ```
 
-2. Variable naming conventions
+- Variable naming conventions
   ```python
   """ VALID """
   my_name = "Alexis"
@@ -217,13 +217,13 @@ my_set = set("Alice", "alice") # Note that "Alice" is different than "alice".
   *name = "Mike" # BAD
   ```
 
-3. Variable names should be descriptive for readability
+- Variable names should be descriptive for readability
   ```python
   this_is_my_name = "Alexis"
   days_in_a_year = 365
   ```
   
-4. Variable should not match built-in keyword names
+- Variable should not match built-in keyword names
   ```python
   """
   List of built-in keywords:
