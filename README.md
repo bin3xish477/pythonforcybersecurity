@@ -273,14 +273,14 @@ my_set = set("Alice", "alice") # Note that "Alice" is different than "alice".
     ```
   
 - '**-**'  |  "**-=**"
-  - 
+  - talk about this operator here
     ```python
-  
+    write some code here
     ```
 - '**\***'
-  -
+  - talk about this operator here
     ```python
-  
+    write some code here
     ```
 **Note**: there are other operators but they will not be quite as useful as these.
 
