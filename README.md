@@ -254,7 +254,7 @@ my_set = set("Alice", "alice") # Note that "Alice" is different than "alice".
   ```
 # Arithmetic Operators
 
-- '**+**'  |  "**+=**"
+- **+**  |  **+=**
   - the '+' operator can be used to add integers, floats, and to concatenate strings together.
   
     ```python
@@ -272,22 +272,22 @@ my_set = set("Alice", "alice") # Note that "Alice" is different than "alice".
     s += " World!" # Same as s = "Hello," + " World!"
     ```
   
-- '**-**'  |  "**-=**"
+- **-**  |  **-=**
   - talk about this operator here
     ```python
     write some code here
     ```
-- '**\***'  |  "**\*=**"
+- **\***  |  **\*=**
   - talk about this operator here
     ```python
     write some code here
     ```
-- '**%**'  |  "**%=**"
+- **%**  |  "**%=**"
   - talk about this operator here
     ```python
     write some code here
     ```
-- '**==**'  |  "**>=**"  |  "**<=**"
+- **==**  |  **>=**  |  **<=**
   - talk about this operator here
     ```python
     write some code here
