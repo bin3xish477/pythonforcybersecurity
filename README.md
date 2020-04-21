@@ -296,7 +296,7 @@ my_set = set("Alice", "alice") # Note that "Alice" is different than "alice".
 **Note**: there are other operators but they will not be mentioned here. For more operators, visit this [link](https://www.tutorialspoint.com/python/python_basic_operators.htm).
 
 # User Input
-User input is important if your program relies on external data that a user may need to provide. To retrieve data from a user while program run-time, we use the keyword *input*.
+User input is important if your program relies on external data that a user may need to provide. To retrieve data from a user while during program run-time, we use the keyword *input*.
 ```python
 # This will stop the execution of the program and wait for input.
 # All inputs are automatically stored as strings.
