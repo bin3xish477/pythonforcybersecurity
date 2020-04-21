@@ -254,21 +254,24 @@ my_set = set("Alice", "alice") # Note that "Alice" is different than "alice".
   ```
 # Arithmetic Operators
 1. **+**, **+=**
+
   - the "+" operator can be used to add integers, floats, and to concatenate strings together.
+  
     ```python
     i = 34 + 6
     f = 34.0 + 6.0
     s = "Hello," + " World!"
     ```
   - the "+=" is known as the addition assignment operator and it adds a value to a variable and assigns the result of the operation to the variable that was manipulated.
+  
   ```python
   i = 5
   i += 5 # Same as i = 5 + 5
   
   s = "Hello,"
   s += " World!" # Same as s = "Hello," + " World!"
-  
   ```
+  
 2. **-**, **-=**
 
 3. *****, ***=**
@@ -458,6 +461,7 @@ print(min(my_list))
 
 **open**
 The open function is utilized in Python for opening files in different modes that might be useful for your file operations.
+
 |**mode**|**definition**|
 |-------|-------|
 |`r`|read from file only|
@@ -474,7 +478,6 @@ The open function is utilized in Python for opening files in different modes tha
 |`ab+`|append and read to and from file in binary. Will create the file if it does not exist|
 
 ```python
-"""
 # Here we are opening a file in write mode.
 f = open("somefile.txt", "w")
 
@@ -502,7 +505,7 @@ data = f.read()
 # Print the data obtained from the file.
 print(data)
 
-# Close the file we opened.
+# Close the file.
 f.close()
 ```
 
