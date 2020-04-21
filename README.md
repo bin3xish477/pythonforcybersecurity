@@ -616,6 +616,7 @@ for i in range(10)
 ```
 
 **While loops**
+
 While loops are excellent to use when you want to perform a series of steps while a given condition is true. While loops can also be used to create infinite loops when a condition is not provided or unknown. 
 ```python
 """
@@ -633,6 +634,7 @@ while counter < 10:
 ```
 
 **For loops**
+
 For loops should be used when you know the number of times you want to perform a given task.
 ```python
 
