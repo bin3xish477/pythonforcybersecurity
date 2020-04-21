@@ -282,7 +282,17 @@ my_set = set("Alice", "alice") # Note that "Alice" is different than "alice".
     ```python
     write some code here
     ```
-**Note**: there are other operators but they will not be quite as useful as these.
+- '**%***'  |  "**\%=**"
+  - talk about this operator here
+    ```python
+    write some code here
+    ```
+- '**==***'  |  "**>=**"  |  "**<=**"
+  - talk about this operator here
+    ```python
+    write some code here
+    ```
+**Note**: there are other operators but they will not be mentioned here. For 
 
 # User Input
 User input is important if your program relies on external data that a user may need to provide. To retrieve data from a user while program run-time, we use the keyword *input*.
