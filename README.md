@@ -66,6 +66,7 @@ Strings, integers, booleans, and floats are all data types in Python which are a
 **Strings**
   - Strings are a sequence of characters.
   - Strings are immutable which means you cannot overwrite a specific character of a strings, instead you would have to declare a completely different string.
+  - 
   ```python
   Ex.
   # Any statement surrouned by double or single quotes are considered strings.
@@ -101,7 +102,7 @@ Strings, integers, booleans, and floats are all data types in Python which are a
   # Floats are mostly used for mathematical purposes.
   Floats: 0.1, 3.3, 5324.172, .77
   ```
-  
+
 # Data Structures: list, dict, tuple, and set
 Data structures are a collection of data types. You use data structures to store data that are revelant to each othere, like a list of dates or IP addresses. Python is a dynamically typed language and therefore elements within any data structure can contain different data types. This means, for example, that creating a list with floats, strings, and integers is allowed in Python data structures. In statically typed languages, data structures can only store data that a declared data structure was determined to store. For example, in C++, arrays (C++'s version of lists) can only contain elements of the same data type: int, float, string, boolean.
 
@@ -251,7 +252,29 @@ my_set = set("Alice", "alice") # Note that "Alice" is different than "alice".
   # Output:
   # 3.14
   ```
+# Arithmetic Operators
+1. **+**, **+=**
+  - the "+" operator can be used to add integers, floats, and to concatenate strings together.
+    ```python
+    i = 34 + 6
+    f = 34.0 + 6.0
+    s = "Hello," + " World!"
+    ```
+  - the "+=" is known as the addition assignment operator and it adds a value to a variable and assigns the result of the operation to the variable that was manipulated.
+  ```python
+  i = 5
+  i += 5 # Same as i = 5 + 5
   
+  s = "Hello,"
+  s += " World!" # Same as s = "Hello," + " World!"
+  
+  ```
+2. **-**, **-=**
+
+3. *****, ***=**
+
+4. **/**, **/=**
+
 # User Input
 User input is important if your program relies on external data that a user may need to provide. To retrieve data from a user while program run-time, we use the keyword *input*.
 ```python
@@ -264,6 +287,262 @@ name = input()
 
 # Get input with a message prompt.
 name = input("Please enter your name: ")
+```
+# Built-in Functions
+The following examples will demonstrate some of Python's built-in functions which will or can be useful to accomplish any given task. Python's built-in functions will allow you to do things such as get the length of a list, convert a variable, if allowed, to another data type (also known as type conversion/casting), and sort items. To invoke (fancy way for saying call or use) any function we must use opening paranthesis `(`, followed by the data in which we will pass to the function, and then a closing paranthesis `)`. Here are some built-in function examples:
+
+**len**
+len will return a number representing the number of characters within an iterable object (lists, tuples, and strings). The len is useful when performing loops. 
+```python
+name = "John"
+
+len_of_name = len(name)
+
+print(len_of_name)
+
+# Output:
+# 4
+```
+
+**sorted**
+The sorted function returns a sorted list of an iterable object (lists, tuples, and strings). 
+```python
+my_list = [5, 4 , 7, 8, 2]
+
+sorted_list = sorted(my_list)
+
+print(sorted_list)
+
+#Output:
+[2, 4, 5, 7, 8]
+
+"""
+Most of Python's built-in functions 
+will have specific options that we can 
+pass in as arguments. Here is one argument
+I will provide to the sorted function to return
+a reversed sorted list (highest to lowest):
+"""
+my_list = [5, 4 , 7, 8, 2]
+
+sorted_list = sorted(my_list, reverse=True)
+
+print(sorted_list)
+
+#Output:
+[8, 7, 5, 4, 2]
+```
+
+**str, int, float, bool**
+These three functions are to used to convert other data types into values defined by their names.
+```python
+"""
+We can use Python's built-in type() function
+to check the data type of a particular variable.
+"""
+
+i = 25
+
+str_i = str(i)
+
+print(type(str_i))
+
+print(str_i)
+
+# Output:
+# <class 'str'>
+# 25
+
+# The "<class 'str'>" means the variable is of type string
+# which means we converted the integer 25 into a string.
+
+string = "77"
+
+# Casting "77" into the integer 77
+integer_from_string = int(string)
+
+print(type(integer_from_string))
+
+print(integer_from_string)
+
+# Output:
+# <class 'int'>
+# 77
+
+# The "<class 'int'>" means the variable is of type int
+# which means we converted the string "77" into an integer.
+
+i = 34
+
+f = float(i)
+
+print(type(f))
+print(f)
+
+# Output:
+# <class 'float'>
+# 34.0
+
+# The "<class 'float'>" means the variable is of type float
+# which means we converted the integer 34 into a float with 
+# the value of 34.0
+
+"""
+***************************************
+The bool function is a bit more complex
+than the other type casting functions
+previously demonstrated. The following values
+will return a value of false when using the
+bool function:
+- None
+- False
+- Any value equal to 0
+- Empty sequences and dictionaries.
+
+The following will return True when using
+the bool function:
+- True
+- any sequence (list, tuple, string) that is not empty
+- any variable that contains an object
+ that is not one of the elements in the previously
+ listed False values.
+***************************************
+"""
+
+my_list = []
+name = "Alice"
+i = 36
+male = False
+my_dict = {}
+
+print(bool(my_list))
+print(bool(name))
+print(bool(i))
+print(bool(male))
+print(bool(my_dict))
+
+# Output:
+# False
+# True
+# True
+# False
+# False
+```
+
+**bytes**
+The bytes function converts passed in data into a byte string of a specified encoding. Byte strings are identified by a 'b' preceding a string.
+```python
+name = "Neil"
+
+byte_string = bytes(name, "utf-8") # Convert string into UTF-8 encoded byte object.
+
+print(byte_string)
+
+# Output:
+# b'Neil'
+```
+
+**max, min**
+The purpose of these functions is self-explanatory. Finding the maximum or minimum values in a compatible object.
+```python
+
+my_list = [34, 5, 2, 99, 58]
+
+print(max(my_list))
+print(min(my_list))
+
+# Output:
+# 99
+# 2
+```
+
+**open**
+The open function is utilized in Python for opening files in different modes that might be useful for your file operations.
+|**mode**|**definition**|
+|-------|-------|
+|`r`|read from file only|
+|`rb`|read from file in binary only|
+|`r+`|read and write to file|
+|`rb+`|read and write to file in binary|
+|`w`|write to file only. Overwrites existing file or creates new one|
+|`wb`|write to file in binary only. Overwrites existing file or creates new one|
+|`w+`|write and read to file. Overwrites existing file or creates new one|
+|`wb+`|write and read to file in binary. Overwrites existing file or creates new one|
+|`a`|append data to file|
+|`ab`|append data to file in binary|
+|`a+`|append and read. Will create the file if it does not exist|
+|`ab+`|append and read to and from file in binary. Will create the file if it does not exist|
+
+```python
+"""
+# Here we are opening a file in write mode.
+f = open("somefile.txt", "w")
+
+# The open function returns a file object
+# which has methods (functions) that can be
+# called. Because we've opened the file in
+# write mode, lets use the write function
+# to actually write to the file.
+
+# Write to file using write method.
+f.write("Hello, I am writing to this file")
+
+# It is good practice to always close your files.
+f.close()
+
+# ------------------------------------------------
+
+# Now lets open the samefile in read mode.
+f = open("somefile.txt", "r")
+
+# Let us read the data from the file which we 
+# wrote into it.
+data = f.read()
+
+# Print the data obtained from the file.
+print(data)
+
+# Close the file we opened.
+f.close()
+```
+
+**print**
+We've seen the print function being used many times, so let's get a better understanding of this commonly used function.
+```python
+# As mentioned before, the print function allows 
+# us to display data to the console. 
+print("This is a test")
+
+# Seperated variables or defined strings with
+# commas will automatically put spaces in between
+# these elements.
+print("This", "is", "a", "test")
+
+# The print statement also appens a '\n' character
+# to the end of your printed data which means 
+# the cursor moves to the beginning of the 
+# next line. We can change this though using
+# a keyword argument called "end".
+print("This", end="|")
+print("is", end="|")
+print("a", end="|")
+print("test", end="|")
+
+# VS
+
+print("This")
+print("is")
+print("a")
+print("test")
+
+# Final Output:
+# This is a test
+# This is a test
+# This|is|a|test
+# This
+# is
+# a
+# test
 ```
 
 # Control Flow
@@ -316,11 +595,24 @@ for i in range(10)
 ```
 
 **While loops**
+While loops are excellent to use when you want to perform a series of steps while a given condition is true. While loops can also be used to create infinite loops when a condition is not provided or unknown. 
 ```python
+"""
+********************************************
+When a condition to a while is given, there
+will always be some variable that will be 
+used to evaluate the condition for a loop
+after each iteration.
+********************************************
+"""
+# Ex.
+counter = 0
 
+while counter < 10:
 ```
 
 **For loops**
+For loops should be used when you know the number of times you want to perform a given task.
 ```python
 
 ```
