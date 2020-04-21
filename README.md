@@ -475,7 +475,7 @@ The open function is utilized in Python for opening files in different modes tha
 |`wb+`|write and read to file in binary. Overwrites existing file or creates new one|
 |`a`|append data to file|
 |`ab`|append data to file in binary|
-|`a+`|append and read. Will create the file if it does not exist|
+|`a+`|append and read to and from file. Will create the file if it does not exist|
 |`ab+`|append and read to and from file in binary. Will create the file if it does not exist|
 
 ---
