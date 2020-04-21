@@ -312,6 +312,7 @@ name = input("Please enter your name: ")
 The following examples will demonstrate some of Python's built-in functions which will or can be useful to accomplish any given task. Python's built-in functions will allow you to do things such as get the length of a list, convert a variable, if allowed, to another data type (also known as type conversion/casting), and sort items. To invoke (fancy way for saying call or use) any function we must use opening paranthesis `(`, followed by the data in which we will pass to the function, and then a closing paranthesis `)`. Here are some built-in function examples:
 
 **len**
+
 len will return a number representing the number of characters within an iterable object (lists, tuples, and strings). The len is useful when performing loops. 
 ```python
 name = "John"
@@ -325,6 +326,7 @@ print(len_of_name)
 ```
 
 **sorted**
+
 The sorted function returns a sorted list of an iterable object (lists, tuples, and strings). 
 ```python
 my_list = [5, 4 , 7, 8, 2]
@@ -354,6 +356,7 @@ print(sorted_list)
 ```
 
 **str, int, float, bool**
+
 These three functions are to used to convert other data types into values defined by their names.
 ```python
 """
@@ -450,6 +453,7 @@ print(bool(my_dict))
 ```
 
 **bytes**
+
 The bytes function converts passed in data into a byte string of a specified encoding. Byte strings are identified by a 'b' preceding a string.
 ```python
 name = "Neil"
@@ -463,6 +467,7 @@ print(byte_string)
 ```
 
 **max, min**
+
 The purpose of these functions is self-explanatory. Finding the maximum or minimum values in a compatible object.
 ```python
 
@@ -477,6 +482,7 @@ print(min(my_list))
 ```
 
 **open**
+
 The open function is utilized in Python for opening files in different modes that might be useful for your file operations.
 
 |**mode**|**definition**|
