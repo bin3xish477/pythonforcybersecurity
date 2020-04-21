@@ -253,7 +253,7 @@ my_set = set("Alice", "alice") # Note that "Alice" is different than "alice".
   # 3.14
   ```
 # Arithmetic Operators
-1. **+**, **+=**
+1. `**+**, **+=**`
 
   - the "+" operator can be used to add integers, floats, and to concatenate strings together.
   
@@ -264,19 +264,19 @@ my_set = set("Alice", "alice") # Note that "Alice" is different than "alice".
     ```
   - the "+=" is known as the addition assignment operator and it adds a value to a variable and assigns the result of the operation to the variable that was manipulated.
   
-  ```python
-  i = 5
-  i += 5 # Same as i = 5 + 5
+    ```python
+    i = 5
+    i += 5 # Same as i = 5 + 5
   
-  s = "Hello,"
-  s += " World!" # Same as s = "Hello," + " World!"
-  ```
+    s = "Hello,"
+    s += " World!" # Same as s = "Hello," + " World!"
+    ```
   
-2. **-**, **-=**
+2. `**-**, **-=**`
 
-3. *****, ***=**
+3. `**\***, **\*=**`
 
-4. **/**, **/=**
+4. `**/**, **/=**`
 
 # User Input
 User input is important if your program relies on external data that a user may need to provide. To retrieve data from a user while program run-time, we use the keyword *input*.
@@ -477,6 +477,7 @@ The open function is utilized in Python for opening files in different modes tha
 |`a+`|append and read. Will create the file if it does not exist|
 |`ab+`|append and read to and from file in binary. Will create the file if it does not exist|
 
+---
 ```python
 # Here we are opening a file in write mode.
 f = open("somefile.txt", "w")
