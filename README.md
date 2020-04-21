@@ -254,8 +254,7 @@ my_set = set("Alice", "alice") # Note that "Alice" is different than "alice".
   ```
 # Arithmetic Operators
 
-1. **+**, **+=**
-
+- **+**, **+=**
   - the "+" operator can be used to add integers, floats, and to concatenate strings together.
   
     ```python
@@ -263,7 +262,7 @@ my_set = set("Alice", "alice") # Note that "Alice" is different than "alice".
     f = 34.0 + 6.0
     s = "Hello," + " World!"
     ```
-  - the "+=" is known as the addition assignment operator and it adds a value to a variable and assigns the result of the operation to the variable that was manipulated.
+  - the "+=" is known as the addition assignment operator and it adds a value to a variable and assigns the result of the       operation to the variable that was manipulated.
   
     ```python
     i = 5
@@ -273,11 +272,18 @@ my_set = set("Alice", "alice") # Note that "Alice" is different than "alice".
     s += " World!" # Same as s = "Hello," + " World!"
     ```
   
-2. **-**, **-=**
-
-3. **\***, **\*=**
-
-4. **/**, **/=**
+- **-**, **-=**
+  ```python
+  
+  ```
+- **\***, **\*=**
+  ```python
+  
+  ```
+- **/**, **/=**
+  ```python
+  
+  ```
 
 # User Input
 User input is important if your program relies on external data that a user may need to provide. To retrieve data from a user while program run-time, we use the keyword *input*.
