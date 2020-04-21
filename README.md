@@ -253,7 +253,8 @@ my_set = set("Alice", "alice") # Note that "Alice" is different than "alice".
   # 3.14
   ```
 # Arithmetic Operators
-1. `**+**, **+=**`
+
+1. **+**, **+=**
 
   - the "+" operator can be used to add integers, floats, and to concatenate strings together.
   
@@ -272,11 +273,11 @@ my_set = set("Alice", "alice") # Note that "Alice" is different than "alice".
     s += " World!" # Same as s = "Hello," + " World!"
     ```
   
-2. `**-**, **-=**`
+2. **-**, **-=**
 
-3. `**\***, **\*=**`
+3. **\***, **\*=**
 
-4. `**/**, **/=**`
+4. **/**, **/=**
 
 # User Input
 User input is important if your program relies on external data that a user may need to provide. To retrieve data from a user while program run-time, we use the keyword *input*.
