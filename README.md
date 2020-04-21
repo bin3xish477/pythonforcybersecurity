@@ -277,7 +277,7 @@ my_set = set("Alice", "alice") # Note that "Alice" is different than "alice".
     ```python
     write some code here
     ```
-- '**\***'
+- '**\***'  |  "**\***"
   - talk about this operator here
     ```python
     write some code here
