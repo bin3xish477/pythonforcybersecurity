@@ -806,10 +806,10 @@ into print_a_name is n.
 
 # Importing Modules
 
-# re, socket, and request Modules
-The re module is used for compiling and providing regular expression searching within your program. Th
+# The re, socket, and request Module
+
 ### re
-The re module is used for compiling and providing regular expression searching within your program. Regular expressions are a sequence of characters that define a specific search pattern. For an excellent regular expression cheat sheet, follow this [link](https://devhints.io/regexp).Let's look at some regular expressions that you will most likely use in cybersecurity: 
+The re module is used for compiling and providing regular expression searching within your program. Regular expressions are a sequence of characters that define a specific search pattern. For an excellent regular expression cheat sheet, follow this [link](https://devhints.io/regexp). Let's look at some regular expressions that you will most likely use in cybersecurity: 
 ```python
 import re
 
