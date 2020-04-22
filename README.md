@@ -860,10 +860,9 @@ import socket
 
 """
 Here is an example of how we would use a context manager to open and close a socket.
-
+"""
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
   pass
-"""
 ```
 
 ### Reversing a sequence type with slice notation
