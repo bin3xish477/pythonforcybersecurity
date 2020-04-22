@@ -800,5 +800,39 @@ them to signify that the argument we want to pass
 into print_a_name is n.
 """
 ```
+
+# PEP8 Documentation
+
+
+# Importing Modules
+
+# re, socket, and request Modules
+
+### re
+```python
+```
+
+### socket
+```python
+
+```
+
+### request
+```python
+
+```
+
+# Cool Python Features
+
+### f strings
+
+### context managers
+
+### reversing a sequence type with slice notation
+
+### list, dict, and set comprehensions
+
+### asterisk sequence multiplier
+
 # About the Author
 Alexis Rodriguez is a cybersecurity professional with an adoration for the art of programming. He studied computer science at Hunter College where he learned how to program in C++ and Python, and graduated Fullstack Cyber Bootcamp where he gained his cybersecurity foundation. His favorite quote is: "It is the knowledge of knowing that I am going to die that creates the focus that I bring to being alive." - *Neil Degrasse Tyson*.
