@@ -828,19 +828,34 @@ IP_REGEX = re.compile(r"[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}")
 
 ### socket
 ```python
+import socket
 
 ```
 
 ### request
 ```python
-
+import request
 ```
 
 # Cool Python Features
 
 ### F strings
 
+F-strings are Python's new way of formatting strings. 
+```python
+name = "Neil"
+age = 25
+height = 6.2
+
+print(f"My name is {name} and I am {age} year's old. I am also {height} ft tall.")
+
+# Output:
+# My name is Neil and I am 25 years old. I am also 6.2 ft tall.
+```
+
 ### Context managers
+
+Context managers in Python are using for handling resource that require opening and closing operations such as open a file or creating a socket. The "with" keyword is used for context managers and essentailly any class that contains the \__enter__ and \__exit__ dunder (double underscore) methods supports context management.
 
 ### Reversing a sequence type with slice notation
 
