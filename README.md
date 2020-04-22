@@ -753,8 +753,52 @@ n
 Neil
 Alice
 John
+
+- In the first loop, we are iterating over a range of
+numbers, 0 through 9, and printing each number.
+- In the second loop, we are iterating over a string
+which is a sequence type and printing each character in
+the string.
+- In the final loop, we are iterating over a list and
+printing each item of the list.
 """
 ```
+# Function Declaration
+Functions are an important part of any programming language and they help you break down the tasks in your program into cohesive blocks of code that makes sense to the context of your program. Functions are created to avoid repetitive code blocks, making your programs simpler to read and understand.
+```python
+"""
+How to declare a function:
+def print_a_name(name):
+    # Your code goes here...
+    
+We used to "def" keyword to "define" a
+function called print_a_name which will take
+in an argument in which we called name.
+Let's finish this example function declaration:
+"""
 
+def print_a_name(name):
+  print("Your name is", name)
+
+n = "Frank"
+print_a_name(n)
+
+# Output:
+# Your name is Frank
+
+"""
+We declared the function print_a_name
+which will take name as an arguments.
+The purpose of print_a_name is to print
+"Your name is" followed by a name that
+was passed as the argument. So we declared a 
+variable, n, with a string of "Frank". We then 
+invoked the function print_a_name by writing
+the name of the function followed by opening and
+closing parathesis and the variable n in between
+them to signify that the argument we want to pass
+into print_a_name is n.
+"""
+```
 # About the Author
 Alexis Rodriguez is a cybersecurity professional with an adoration for the art of programming. He studied computer science at Hunter College where he learned how to program in C++ and Python, and graduated Fullstack Cyber Bootcamp where he gained his cybersecurity foundation. His favorite quote is: "It is the knowledge of knowing that I am going to die that creates the focus that I bring to being alive." - *Neil Degrasse Tyson*.
