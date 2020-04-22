@@ -855,7 +855,7 @@ print(f"My name is {name} and I am {age} year's old. I am also {height} ft tall.
 
 ### Context managers
 
-Context managers in Python are using for handling resource that require opening and closing operations such as open a file or creating a socket. The "with" keyword is used for context managers and essentailly any class that contains the \__enter__ and \__exit__ dunder (double underscore) methods supports context management.
+Context managers in Python are using for handling resource that require opening and closing operations such as open a file or creating a socket. The "with" keyword is used for context managers and essentailly any class that contains the \__enter__ and \__exit__ dunder (double underscore) methods support context management.
 
 ### Reversing a sequence type with slice notation
 
