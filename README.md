@@ -829,7 +829,6 @@ IP_REGEX = re.compile(r"[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}")
 ### socket
 ```python
 import socket
-
 ```
 
 ### request
@@ -856,12 +855,36 @@ print(f"My name is {name} and I am {age} year's old. I am also {height} ft tall.
 ### Context managers
 
 Context managers in Python are using for handling resource that require opening and closing operations such as open a file or creating a socket. The "with" keyword is used for context managers and essentailly any class that contains the \__enter__ and \__exit__ dunder (double underscore) methods support context management.
+```python
+import socket
+
+"""
+Here is an example of how we would use a context manager to open and close a socket.
+
+with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+  pass
+"""
+```
 
 ### Reversing a sequence type with slice notation
 
 ### List, dict, and set comprehensions
 
+List, dictionaries, and sets can all be created using a one-line statement known as a list|dict|set comprehension. The creation of list, dicts, or sets that require complex control flow should not be created with comprehensions because the readability of comprehension can get complicated after a certain number of operations.
+```python
+list_of_chars = [c for c in ['c', 'b', 'a']]
+```
+
 ### Asterisk sequence multiplier
+
+Python allows us to use the \* operator to multiply any sequence type a specified number of times.
+```python
+print('a'*10)
+
+my_list = [1, 2, 3]
+my_list *= 3 
+
+```
 
 # About the Author
 Alexis Rodriguez is a cybersecurity professional with an adoration for the art of programming. He studied computer science at Hunter College where he learned how to program in C++ and Python, and graduated Fullstack Cyber Bootcamp where he gained his cybersecurity foundation. His favorite quote is: "It is the knowledge of knowing that I am going to die that creates the focus that I bring to being alive." - *Neil Degrasse Tyson*.
