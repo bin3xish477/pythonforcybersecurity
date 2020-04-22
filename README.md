@@ -807,9 +807,23 @@ into print_a_name is n.
 # Importing Modules
 
 # re, socket, and request Modules
-
+The re module is used for compiling and providing regular expression searching within your program. Th
 ### re
+The re module is used for compiling and providing regular expression searching within your program. Regular expressions are a sequence of characters that define a specific search pattern. For an excellent regular expression cheat sheet, follow this [link](https://devhints.io/regexp).Let's look at some regular expressions that you will most likely use in cybersecurity: 
 ```python
+import re
+
+"""                       Regular Expressions                         """
+#------------------------------------------------------------------------
+FULL_URL_REGEX = re.compile(r"https?://(www\.)?([a-zA-z-]+)(\.\w+)")
+EMAIL_REGEX = re.compile(r"[a-zA-Z-_]+@[a-zA-Z-_]+\.[a-zA-Z]+")
+PHONE_NUMBER_REGEX = re.compile(r"(?[0-9]{3})? [0-9]{3}( -)?[0-9]{4}")
+IP_REGEX = re.compile(r"[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}")
+
+Let's break down each regular expression shown above.
+
+
+
 ```
 
 ### socket
@@ -824,15 +838,15 @@ into print_a_name is n.
 
 # Cool Python Features
 
-### f strings
+### F strings
 
-### context managers
+### Context managers
 
-### reversing a sequence type with slice notation
+### Reversing a sequence type with slice notation
 
-### list, dict, and set comprehensions
+### List, dict, and set comprehensions
 
-### asterisk sequence multiplier
+### Asterisk sequence multiplier
 
 # About the Author
 Alexis Rodriguez is a cybersecurity professional with an adoration for the art of programming. He studied computer science at Hunter College where he learned how to program in C++ and Python, and graduated Fullstack Cyber Bootcamp where he gained his cybersecurity foundation. His favorite quote is: "It is the knowledge of knowing that I am going to die that creates the focus that I bring to being alive." - *Neil Degrasse Tyson*.
