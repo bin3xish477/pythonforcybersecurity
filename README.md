@@ -572,6 +572,41 @@ print("test")
 # test
 ```
 
+**range**
+
+The range function returns an immutable sequence of numbers that we can use to create a range of numbers. The first element of any indexable data type or data structure is at index 0. This is because programming languages used zero-indexed based sequences. This means if we wanted to access the first element in `my_list = ['a', 'b', 'c']` we would do `my_list[0]`. 
+```python
+# Produce a range of numbers from 0 to 9.
+# The value passed in as an argument is
+# not included within the range of numbers
+# because of 0-based indexing.
+r = range(10)
+
+# If we were to loop over this range
+# and print the value of every number:
+for i in r:
+  print(i)
+  
+# Output:
+# 0
+# 1
+# 2
+# 3
+# 4
+# 5
+# 6
+# 7
+# 8
+# 9
+
+"""
+As shown above, the first number is 0 and
+the last number is 9 because the value 10
+passed as an argument to the function "range" 
+is non-inclusive.
+"""
+```
+
 # Control Flow
 What is control flow?
 
@@ -605,6 +640,10 @@ In python, the words "while", "for", "in", and "range"
 can be a part of a loop operation. Note: "for",
 "in" are used in conjunction and "range" is used 
 by "while loops" and "for loops" interchangeably.
+
+Indents in Python indicate block of codes. In any loop
+we create must indent all of the steps in which we want
+to perform within the of the loop.
 *******************************************************
 """
 
@@ -626,24 +665,95 @@ for i in range(10)
 While loops are excellent to use when you want to perform a series of steps while a given condition is true. While loops can also be used to create infinite loops when a condition is not provided or unknown. 
 ```python
 """
-********************************************
-When a condition to a while is given, there
+************************************************
+When a condition to a while loop is given, there
 will always be some variable that will be 
 used to evaluate the condition for a loop
 after each iteration.
-********************************************
+************************************************
 """
 # Ex.
 counter = 0
 
 while counter < 10:
+  print("Hello")
+  counter += 1
+print("While loop finished!")
+
+"""
+Output:
+Hello
+Hello
+Hello
+Hello
+Hello
+Hello
+Hello
+Hello
+Hello
+Hello
+While loop finished!
+
+Hello was printed out 10 times because
+the initial value of the variable counter was 0; 
+This means the initial condition that was being
+evaluated was is "0 < 10", and 0 is less than 10 so the 
+action within the loops code block was executed. The
+variable counter is then incremented by 1.
+This evaluation occurs recursively until the 
+condition becomes False when the variable counter equals 10 and
+the condition being checked becomes "10 < 10" which returns
+False. This exits the loop block and continues on to
+the next line of code which in this case is print("While loop finished!")
+"""
 ```
 
 **For loops**
 
 For loops should be used when you know the number of times you want to perform a given task.
 ```python
+"""
+**********************************************
+For loops are excellent for when you know the 
+number of times in which you would like to 
+execute code. We can also use for loops
+to iterate over any sequence type.
+**********************************************
+"""
+# Looping over a range of numbers
+for i in range(10):
+  print(i)
 
+# Looping over a string.
+name = "John"
+for letter in name:
+  print(letter)
+
+# Looping over a list.
+list_of_names = ["Neil", "Alice", "John"]
+for name in list_of_names:
+  print(name)
+  
+"""
+Output:
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+J
+o
+h
+n
+Neil
+Alice
+John
+"""
 ```
 
 # About the Author
