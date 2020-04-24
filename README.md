@@ -273,26 +273,58 @@ my_set = set("Alice", "alice") # Note that "Alice" is different than "alice".
     ```
   
 - **-**  |  **-=**
-  - talk about this operator here
+  - the '-' operator can be used to subtract integers, floats and is also used to define negative numbers.
     ```python
-    write some code here
+    i = 12 - 10
+    f = 17.4 - 5.4
+    n = -20
+    ```
+  - the '+=' operator is known as the subtraction assignment operator and it subtracts two values and assign the value to a variable.
+    ```python
+    i = 12
+    i -= 10 # Same as i = 12 - 10
     ```
 - **\***  |  **\*=**
-  - talk about this operator here
+  - the '*' operator is used for multiply two numbers and 
     ```python
-    write some code here
-    ```
-- **%**  |  **%=**
-  - talk about this operator here
-    ```python
-    write some code here
-    ```
-- **==**  |  **>=**  |  **<=**
-  - talk about this operator here
-    ```python
-    write some code here
-    ```
     
+    ```
+  - the '*=' operator is known as the multiplication assignment operator and it multiply integers, floats , and it is also used to multiply a given sequence type multiple times. 
+- **%**  |  **%=**
+  - the '%' operator is used to performing modular arithmetic. This operator essentially checks how many times a number goes into another number and then returns the remainder. The modulus operator is commonly used to check if a number is even or odd. A number is said to be even if 2 goes into that number perfectly without a remainder. A number is said to be odd if 2 goes into the number a certain number of times with a remainder of 1.
+    ```python
+    """
+    i would be equal to zero in this statement 
+    because 2 goes into 10 exactly 5 times
+    without a remainder. Because we are checking 
+    the mod 2 of this and the remainder is 0 know the
+    number is even.
+    """
+    i = 10 % 2
+    
+    """
+    in this example, i would be equal to 1
+    because 2 goes into 11 5 times with a REMAINDER
+    of 1. Because we are checking the mod 2 of this
+    and the remainder is 1 we know the number is odd.
+    """
+    i = 11 % 2
+    ```
+  - the '%' operator is known as the modulus assignment operator and perform the same function as the '%' but it also assigns the return value to a given variable.
+- **==**  |  **>=**  |  **<=**
+  - the '==' operator is used to check if two values are equal.
+    ```python
+    i = 10
+    i %= 2 # i is now equal to 0
+    ```
+  - the '>=' operator symbolizes "greater than or equal to" evaluation. The '>' must come before the '='.
+    ```python
+    
+    ```
+  - the '<=' operator symbolizes "less than or equal to" evaluation. The '<' must come before the '='.
+    ```python
+    
+    ```
 **Note**: there are other operators but they will not be mentioned here. For more operators, visit this [link](https://www.tutorialspoint.com/python/python_basic_operators.htm).
 
 # User Input
@@ -308,6 +340,7 @@ name = input()
 # Get input with a message prompt.
 name = input("Please enter your name: ")
 ```
+
 # Built-in Functions
 The following examples will demonstrate some of Python's built-in functions which will or can be useful to accomplish any given task. Python's built-in functions will allow you to do things such as get the length of a list, convert a variable, if allowed, to another data type (also known as type conversion/casting), and sort items. To invoke (fancy way for saying call or use) any function we must use opening paranthesis `(`, followed by the data in which we will pass to the function, and then a closing paranthesis `)`. Here are some built-in function examples:
 
@@ -872,17 +905,6 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
 List, dictionaries, and sets can all be created using a one-line statement known as a list|dict|set comprehension. The creation of list, dicts, or sets that require complex control flow should not be created with comprehensions because the readability of comprehension can get complicated after a certain number of operations.
 ```python
 list_of_chars = [c for c in ['c', 'b', 'a']]
-```
-
-### Asterisk sequence multiplier
-
-Python allows us to use the \* operator to multiply any sequence type a specified number of times.
-```python
-print('a'*10)
-
-my_list = [1, 2, 3]
-my_list *= 3 
-
 ```
 
 # About the Author
