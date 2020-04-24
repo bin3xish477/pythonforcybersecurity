@@ -900,6 +900,15 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
 
 ### Reversing a sequence type with slice notation
 
+```python
+name = 'John'
+reversed_name = [::-1]
+print(name)
+
+list_of_chars = ['a', 'b', 'c', 'd']
+reversed_list_of_chars = my_list[::-1]
+print(reversed_list_of_chars)
+```
 ### List, dict, and set comprehensions
 
 List, dictionaries, and sets can all be created using a one-line statement known as a list|dict|set comprehension. The creation of list, dicts, or sets that require complex control flow should not be created with comprehensions because the readability of comprehension can get complicated after a certain number of operations.
