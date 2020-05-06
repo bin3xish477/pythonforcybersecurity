@@ -847,9 +847,9 @@ Importing modules into your python programs will extend the functionality of you
   import sys as s
   ```
 - importing a particular function or class from another module is done using the **from** keyword:
-```python
-from sys import argv
-```
+  ```python
+  from sys import argv
+  ```
 
 # The re, socket, and request Module
 
