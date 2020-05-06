@@ -842,13 +842,20 @@ Importing modules into your python programs will extend the functionality of you
   ```python
   import sys
   ```
-- importing a module and utilizing the **as** keyword to use a specified name as opposed to the original name of the module:
+- importing a module and utilizing the **as** keyword to use a specified name for referring to the module as opposed to the original name of the module:
   ```python
   import sys as s
+  
+  command_arguments = s.argv
   ```
 - importing a particular function or class from another module is done using the **from** keyword:
   ```python
   from sys import argv
+  
+  # print the name of the current file.
+  # Note: if shebang was used to specify the Python intepreter,
+  # you'll also see a **./** as part of the name of the file.
+  print(argv[0])
   ```
 
 # The re, socket, and request Module
