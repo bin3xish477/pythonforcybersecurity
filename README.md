@@ -52,12 +52,11 @@ the one
 above.
 """
 ```
-Documenting the "Hello, World!" program might look something like this:
+Documenting our "Hello, World!" program might look something like this:
 ```python
 
-# This line will print "Hello, World!" to the console
+# print "Hello, World!" to the console
 print("Hello, World!")
-
 ```
 
 # Data Types: string, integer, boolean, and float
@@ -838,6 +837,19 @@ into print_a_name is n.
 
 
 # Importing Modules
+Importing modules into your python programs will extend the functionality of your programs by including other useful tools from programs that Python has provided or that other programmers have created. Here are some ways of importing modules and import specific items from any particular module.
+- basic syntax for importing a module:
+  ```python
+  import sys
+  ```
+- importing a module and utilizing the **as** keyword to use a specified name as opposed to the original name of the module:
+  ```python
+  import sys as s
+  ```
+- importing a particular function or class from another module is done using the **from** keyword:
+```python
+from sys import argv
+```
 
 # The re, socket, and request Module
 
