@@ -841,12 +841,124 @@ Importing modules into your python programs will extend the functionality of you
 - basic syntax for importing a module:
   ```python
   import sys
+  
+  # The dir returns a list of the attributes and methods of any object (functions, modules, strings, lists, dictionaries,
+  # etc)
+  print(dir(sys))
+  
+  """
+  Output:
+  ['__breakpointhook__',
+  '__displayhook__',
+  '__doc__',
+  '__excepthook__',
+  '__interactivehook__',
+  '__loader__',
+  '__name__',
+  '__package__',
+  '__spec__',
+  '__stderr__',
+  '__stdin__',
+  '__stdout__',
+  '__unraisablehook__',
+  '_base_executable',
+  '_clear_type_cache',
+  '_current_frames',
+  '_debugmallocstats',
+  '_framework',
+  '_getframe',
+  '_git',
+  '_home',
+  '_xoptions',
+  'abiflags',
+  'addaudithook',
+  'api_version',
+  'argv',
+  'audit',
+  'base_exec_prefix',
+  'base_prefix',
+  'breakpointhook',
+  'builtin_module_names',
+  'byteorder',
+  'call_tracing',
+  'callstats',
+  'copyright',
+  'displayhook',
+  'dont_write_bytecode',
+  'exc_info',
+  'excepthook',
+  'exec_prefix',
+  'executable',
+  'exit',
+  'flags',
+  'float_info',
+  'float_repr_style',
+  'get_asyncgen_hooks',
+  'get_coroutine_origin_tracking_depth',
+  'getallocatedblocks',
+  'getcheckinterval',
+  'getdefaultencoding',
+  'getdlopenflags',
+  'getfilesystemencodeerrors',
+  'getfilesystemencoding',
+  'getprofile',
+  'getrecursionlimit',
+  'getrefcount',
+  'getsizeof',
+  'getswitchinterval',
+  'gettrace',
+  'hash_info',
+  'hexversion',
+  'implementation',
+  'int_info',
+  'intern',
+  'is_finalizing',
+  'maxsize',
+  'maxunicode',
+  'meta_path',
+  'modules',
+  'path',
+  'path_hooks',
+  'path_importer_cache',
+  'platform',
+  'prefix',
+  'ps1',
+  'ps2',
+  'ps3',
+  'pycache_prefix',
+  'set_asyncgen_hooks',
+  'set_coroutine_origin_tracking_depth',
+  'setcheckinterval',
+  'setdlopenflags',
+  'setprofile',
+  'setrecursionlimit',
+  'setswitchinterval',
+  'settrace',
+  'stderr',
+  'stdin',
+  'stdout',
+  'thread_info',
+  'unraisablehook',
+  'version',
+  'version_info',
+  'warnoptions']
+  """
   ```
 - importing a module and utilizing the **as** keyword to use a specified name for referring to the module as opposed to the original name of the module:
   ```python
   import sys as s
   
+  # sys.argv stores the arguments that were passed to the Python file currently executed.
   command_arguments = s.argv
+  print(command_arguments)
+  
+  """
+  Example:
+  ./test.py hello world 1 2 3
+  
+  Output:
+  ["hello", "world", "1", "2", "3"]
+  """
   ```
 - importing a particular function or class from another module is done using the **from** keyword:
   ```python
@@ -856,6 +968,17 @@ Importing modules into your python programs will extend the functionality of you
   # Note: if shebang was used to specify the Python intepreter,
   # you'll see a **./** preceding the name of the file.
   print(argv[0])
+  
+  """
+  Example:
+   python test.py
+  
+  Output if using python3 to directly run file:
+  test.py
+  
+  Output if using a shebang to direct the terminal to execute the file as a Python file:
+  ./test.py
+  """
   ```
 
 # The re, socket, and request Module
