@@ -854,7 +854,7 @@ Importing modules into your python programs will extend the functionality of you
   
   # print the name of the current file.
   # Note: if shebang was used to specify the Python intepreter,
-  # you'll also see a **./** as part of the name of the file.
+  # you'll see a **./** preceding the name of the file.
   print(argv[0])
   ```
 
