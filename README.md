@@ -283,6 +283,7 @@ my_set = set("Alice", "alice") # Note that "Alice" is different than "alice".
     i = 12
     i -= 10 # Same as i = 12 - 10
     ```
+    
 - **\***  |  **\*=**
   - the '*' operator is used for multiply two numbers and 
     ```python
