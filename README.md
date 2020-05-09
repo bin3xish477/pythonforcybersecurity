@@ -982,7 +982,7 @@ Importing modules into your python programs will extend the functionality of you
   """
   ```
 
-# The re, socket, and request Module
+# The re, socket, and requests Module
 
 ### re
 The re module is used for compiling and providing regular expression searching within your program. Regular expressions are a sequence of characters that define a specific search pattern. For an excellent regular expression cheat sheet, follow this [link](https://devhints.io/regexp). Let's look at some regular expressions that you will most likely use in cybersecurity: 
@@ -1003,13 +1003,113 @@ IP_REGEX = re.compile(r"[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}")
 ```
 
 ### socket
+The following example consists of the methods we use to create a client using the socket module:
 ```python
-import socket
+# Import the socket module
+import socket as s
+
+# IP address and port of the server we will be connecting to
+IP = "127.0.0.1"
+PORT = 1234
+
+# Number of bytes to receive from server at any given point
+BYTES = 1024
+
+# Creating a socket
+sock = s.socket(s.AF_INET, s.SOCK_STREAM)
+
+# Connecting to server
+# Note: the socket.connect() method
+# expects a tuple containing the IP address
+# and port number of the server
+sock.connect((IP, PORT))
+
+# Receiving data from our server
+# and decode the bytes into utf8 text
+sock.recv(BYTES).decode("utf8")
+
+# Message to send to server
+message = "Hello server!"
+
+# Send message to clients
+sock.send(message.encode("utf8"))
+
+# Close the socket 
+sock.close()
 ```
 
-### request
+The following example consist of the methods we use to create a server using the socket module:
 ```python
-import request
+# Import the socket module
+import socket as s
+
+# IP and port number to bind our socket to
+IP = "127.0.0.1"
+PORT = 1234
+
+# Number of bytes to receive from server at any given point
+BYTES = 1024
+# Creating our socket
+sock = s.socket(s.AF_INET, s.SOCK_STREAM)
+
+# Binding our server to an IP address and port number
+sock.bind((IP, PORT))
+
+# Tell our server to start listening for incoming connections
+sock.listen()
+
+# Receive data from client machines
+# and decode bytes received into utf8 text
+sock.recv(BYTES).decode("utf8")
+
+# Message to send to clients
+message = "Hello clients!"
+
+# Send message to clients
+# Note
+sock.send(message.encode("utf8"))
+
+# Close the socket
+sock.close()
+```
+
+### requests
+The requests module is a great tool for sending HTTP requests to a website. Here are some of the properties and methods commonly used for the requests module. **Note**: You will have to install the requests module because it is not a built-in Python module. To install it on Linux, type `pip install requests` in your terminal and let the magic happen. If you are on Windows you need to make sure you have Python installed and then open up a command prompt as administrator and type `pip install requests`.
+```python
+import requests
+
+URL = "www.google.com"
+
+# Make a GET requests to www.google.com
+resp = requests.get(URL)
+
+# Check the status code of the requests
+print(resp.status_code)
+
+# Get the response headers
+print(resp.headers)
+
+# Return a JSON object if the response contained
+# JSON data
+resp_json = resp.json()
+
+# Get the HTML content received from the response
+site_HTML = resp.text
+print(site_HTML)
+
+"""
+Make a POST requests to www.google.com
+and send data 
+Note: the same properties from above
+are also accessible by the object returned
+from the .post() function.
+"""
+post_req_resp = requests.post(URL, data={"name": "test"})
+
+print(post_req_resp.status_code)
+print(post_req_resp.headers)
+print(post_req_resp.json())
+print(post_req_resp.test)
 ```
 
 # Cool Python Features
