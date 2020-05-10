@@ -2,7 +2,7 @@
 ### What will you learn?
 - Basic functional programming structure
 - Python data types and data structures and their manipulation
-- Arithmetic Operators
+- Python Operators
 - Control Flow
 - Input prompts
 - Loops
@@ -251,7 +251,7 @@ my_set = set("Alice", "alice") # Note that "Alice" is different than "alice".
   # Output:
   # 3.14
   ```
-# Arithmetic Operators
+# Operators
 
 - **+**  |  **+=**
   - the '+' operator can be used to add integers, floats, and to concatenate strings together.
@@ -310,7 +310,7 @@ my_set = set("Alice", "alice") # Note that "Alice" is different than "alice".
     """
     i = 11 % 2
     ```
-  - the '%' operator is known as the modulus assignment operator and perform the same function as the '%' but it also assigns the return value to a given variable.
+  - the '%' operator is known as the modulus assignment operator and perform the same function as the '%' but it also           assigns the return value to a given variable.
 - **==**  |  **>=**  |  **<=**
   - the '==' operator is used to check if two values are equal.
     ```python
@@ -345,6 +345,16 @@ my_set = set("Alice", "alice") # Note that "Alice" is different than "alice".
     10 is neither less than nor equal to 5.
     """
     print(i <= j)
+    ```
+- **and** | **or** | **not**
+  - The 'and', 'or', and 'not operators are all logical operators and are used to evaluate conditional statements.
+    ```python
+    
+    ```
+- **in** | **not in**
+  - the 'in' and 'not in' are commonly used to check whether a specified value exists within a sequence.
+    ```python
+    
     ```
 **Note**: there are other operators but they will not be mentioned here. For more operators, visit this [link](https://www.tutorialspoint.com/python/python_basic_operators.htm).
 
