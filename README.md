@@ -315,15 +315,36 @@ my_set = set("Alice", "alice") # Note that "Alice" is different than "alice".
   - the '==' operator is used to check if two values are equal.
     ```python
     i = 10
-    i %= 2 # i is now equal to 0
+    print(i == 2) # Will print False because 10 does not equal 2
+    
+    # Output:
+    # False
     ```
   - the '>=' operator symbolizes "greater than or equal to" evaluation. The '>' must come before the '='.
     ```python
+    i = 10
+    j = 5
+    """
+    The following line will print True because one
+    of the conditions of the `>=` operator is True:
+    10 is greater than 5.
+    """
+    print(i >= j)
     
+    
+    # Output:
+    # True
     ```
   - the '<=' operator symbolizes "less than or equal to" evaluation. The '<' must come before the '='.
     ```python
-    
+    i = 10
+    j = 5
+    """
+    The following line will print False because no 
+    conditions of the operator `<=` are satified.
+    10 is neither less than nor equal to 5.
+    """
+    print(i <= j)
     ```
 **Note**: there are other operators but they will not be mentioned here. For more operators, visit this [link](https://www.tutorialspoint.com/python/python_basic_operators.htm).
 
@@ -1026,13 +1047,13 @@ sock.connect((IP, PORT))
 
 # Receiving data from our server
 # and decode the bytes into utf8 text
-sock.recv(BYTES).decode("utf8")
+sock.recv(BYTES).decode("utf-8")
 
 # Message to send to server
 message = "Hello server!"
 
 # Send message to clients
-sock.send(message.encode("utf8"))
+sock.send(message.encode("utf-8"))
 
 # Close the socket 
 sock.close()
@@ -1060,14 +1081,14 @@ sock.listen()
 
 # Receive data from client machines
 # and decode bytes received into utf8 text
-sock.recv(BYTES).decode("utf8")
+sock.recv(BYTES).decode("utf-8")
 
 # Message to send to clients
 message = "Hello clients!"
 
 # Send message to clients
 # Note
-sock.send(message.encode("utf8"))
+sock.send(message.encode("utf-8"))
 
 # Close the socket
 sock.close()
