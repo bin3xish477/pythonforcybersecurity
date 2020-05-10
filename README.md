@@ -311,7 +311,7 @@ my_set = set("Alice", "alice") # Note that "Alice" is different than "alice".
     i = 11 % 2
     ```
   - the '%' operator is known as the modulus assignment operator and perform the same function as the '%' but it also           assigns the return value to a given variable.
-- **==**  |  **>=**  |  **<=**
+- **==** | **!=** | **>** | **>=** | **<** | **<=**
   - the '==' operator is used to check if two values are equal.
     ```python
     i = 10
@@ -319,6 +319,14 @@ my_set = set("Alice", "alice") # Note that "Alice" is different than "alice".
     
     # Output:
     # False
+    ```
+  - the '!=' operator
+    ```python
+    
+    ```
+  - the '>' operator
+    ```python
+    
     ```
   - the '>=' operator symbolizes "greater than or equal to" evaluation. The '>' must come before the '='.
     ```python
@@ -334,6 +342,10 @@ my_set = set("Alice", "alice") # Note that "Alice" is different than "alice".
     
     # Output:
     # True
+    ```
+  - the '<' operator
+    ```python
+    
     ```
   - the '<=' operator symbolizes "less than or equal to" evaluation. The '<' must come before the '='.
     ```python
