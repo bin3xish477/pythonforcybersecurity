@@ -879,6 +879,7 @@ into print_a_name is n.
 ```
 
 # Exception Handling
+Follow this [link](https://www.tutorialspoint.com/python/standard_exceptions.htm) for more standard Python exceptions and when each of them are raised.
 ```python
 l = [1, 2, 3, 4]
 
