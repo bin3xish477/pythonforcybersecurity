@@ -8,6 +8,7 @@
 - Loops
 - Function declaration and built-in functions.
 - Code Documentation and function Documentation
+- Exception Handling
 - Work with imported modules
 - Learn how to use the built-in re, socket, and requests modules
   - The re module for compiling and using regular expressions.
@@ -875,6 +876,16 @@ closing parathesis and the variable n in between
 them to signify that the argument we want to pass
 into print_a_name is n.
 """
+```
+
+# Exception Handling
+```python
+try:
+  raise ValueError("Invalid value!")
+except ValueError as err:
+  print(f"Value Error: {err}")
+finally:
+  print("Finished handling error...")
 ```
 
 # PEP8 Documentation
