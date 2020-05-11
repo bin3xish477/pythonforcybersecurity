@@ -879,7 +879,7 @@ into print_a_name is n.
 ```
 
 # Exception Handling
-Follow this [link](https://www.tutorialspoint.com/python/standard_exceptions.htm) for more standard Python exceptions and when each of them are raised.
+Follow this [link](https://www.tutorialspoint.com/python/standard_exceptions.htm) for more standard Python exceptions and a comprehensible description for understanding when specific exceptions are raised.
 ```python
 l = [1, 2, 3, 4]
 
@@ -892,6 +892,17 @@ finally:
 ```
 
 # Functions Docstrings
+```python
+def square(x):
+  """This function squares a number.
+  Args:
+    x (int): The number to be squared.
+    
+  Returns:
+    The squared value of the argument x.
+  """
+  return x**2
+```
 
 # Importing Modules
 Importing modules into your python programs will extend the functionality of your programs by including other useful tools from programs that Python has provided or that other programmers have created. Here are some ways of importing modules and import specific items from any particular module.
