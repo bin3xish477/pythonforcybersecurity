@@ -880,10 +880,12 @@ into print_a_name is n.
 
 # Exception Handling
 ```python
+l = [1, 2, 3, 4]
+
 try:
-  raise ValueError("Invalid value!")
-except ValueError as err:
-  print(f"Value Error: {err}")
+  temp = l[5]
+except IndexError as err:
+  print(f"Index Error: {err}")
 finally:
   print("Finished handling error...")
 ```
